@@ -1,0 +1,3 @@
+#!/bin/sh
+
+sudo mount -t nfs -o resvport,rw 192.168.56.10:/home/srvadmin/nfs ~/Dev/nfs
